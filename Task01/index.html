@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="学科紹介！">
+<title>学科紹介（トップページ）</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script type="text/javascript">
+		function disp(){
+			window.alert('騙されましたね…警告タグです');
+		}
+	</script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slider').bxSlider({
+				auto: true,
+				pause: 10000,
+			});
+		});
+	</script>
+</head>
+<body>
+	<article>
+		<h1 class="top-main" id="top_page">学科紹介（トップページ）</h1>
+		<div class="slider">
+			<img src="/Users/s20012/Desktop/WebExtention/Task01/images_it/top_images.jpg" width="1000" height="400" alt="1">
+			<img src="/Users/s20012/Desktop/WebExtention/Task01/images_it/it_images.jpg" width="1000" height="400" alt="2">
+			<img src="/Users/s20012/Desktop/WebExtention/Task01/images_it/syber_images.jpg" width="1000" height="400" alt="3">
+		</div>
+		<p>このサイトはITカレッジ沖縄の学科紹介サイトです。それぞれの学科の<strong>特徴やカリキュラム</strong>を説明します</p>
+	</article>
+	<article>
+		<h2>目次</h2>
+		<ul>
+			<li><a href="#top_page">学科紹介（トップページ）</a></li>
+			<li><a href="#syber_page">サイバーセキュリティ科</a></li>
+			<li><a href="#it_page">ITスペシャリスト科</a></li>
+		</ul>
+	</article>
+	<article class="itmain">
+		<h2 class="top-main" id="syber_page">サイバーセキュリティ科</h2>
+		<div class="wrapper">
+		<div class="item">
+		<a href="/Users/s20012/Desktop/WebExtention/Task01/cyber-security.html">
+		<img src="/Users/s20012/Desktop/WebExtention/Task01/images_it/syber_images.jpg" width="500" height="300" alt="サイバーセキュリティ科">
+		</a>
+		<p>ネットワークとセキュリティのプロを目指す</p>
+		</div>
+		<div class="item">
+			<h2>将来の職業</h2>
+		<ul>
+			<li><h2>セキュリティエンジニア</h2></li>
+			<li><h2>ネットワークエンジニア</h2></li>
+			<li><h2>サーバーエンジニア</h2></li>
+			<li><h2>カスタマーエンジニア</h2></li>
+			<li><h2>インフラエンジニア</h2></li>
+		</ul>
+		</div>
+		</div>
+	</article>
+	<article class="itmain">
+		<h2 class="top-main" id="it_page">ITスペシャリスト科</h2>
+		<div class="wrapper">
+		<div class="item">
+		<a href="/Users/s20012/Desktop/WebExtention/Task01/it-specialist.html">
+		<img src="/Users/s20012/Desktop/WebExtention/Task01/images_it/it_images.jpg" width="500" height="300" alt="ITスペシャリスト科">
+		</a>
+		<p>しっかり学べる3年制 「情報工学コース」</p>
+		</div>
+		<div class="item">
+			<h2>将来の職業</h2>
+		<ul>
+			<li><h2>Webプログラマ</h2></li>
+			<li><h2>アプリデベロッパー</h2></li>
+			<li><h2>Androidデベロッパー</h2></li>
+			<li><h2>フルスタックエンジニア</h2></li>
+			<li><h2>データベースエンジニア</h2></li>
+		</ul>
+		</div>
+		</div>
+	</article>
+	<article>
+		<h2 class="top-main">ITカレッジ沖縄について</h2>
+		<div class="float-clear">
+		<div class="float-box">
+		<img src="/Users/s20012/Desktop/WebExtention/Task01/images_it/it_aicon.jpg" width="200" height="200" alt="歴史">
+		</div>
+		<p>アイカレ（専門学校ITカレッジ沖縄）、ガイゴ（専門学校沖縄ビジネス外語学院）のフジ学園グループです。 私たちフジ学園グループは、知識、技術として、 ガイゴ（専門学校沖縄ビジネス外語学院）では「観光、語学」、 アイカレ（専門学校ITカレッジ沖縄）では「IT技術、プログラミング、セキュリティ」と それぞれの学校において学ぶジャンルはことなりますが、 両校として時代にマッチした その時その時のいきる力、 いく抜く力を本学で学んだ学生へしっかりと伝えていきことを目標としてます</p>
+		</div>
+	</article>
+	<article>
+		<p><strong>よろしければ公式のサイトにもアクセスしてください↓</strong></p>
+		<a href="#" onClick="disp(); return false;">
+		<img src="/Users/s20012/Desktop/WebExtention/Task01/images_it/sit.jpg" alt="嘘">
+		</a>
+		<p><a href="#top_page">トップに戻る</a></p>
+	</article>
+</body>
+</html>
